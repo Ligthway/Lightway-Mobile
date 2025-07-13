@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FAAA05232E2415F700F7844B /* SmoothGradient in Frameworks */ = {isa = PBXBuildFile; productRef = FAAA05222E2415F700F7844B /* SmoothGradient */; };
+		FAAA05262E2415FF00F7844B /* GlowGetter in Frameworks */ = {isa = PBXBuildFile; productRef = FAAA05252E2415FF00F7844B /* GlowGetter */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FAAA04F32E23E7F900F7844B /* Lightway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lightway.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +28,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAA05262E2415FF00F7844B /* GlowGetter in Frameworks */,
+				FAAA05232E2415F700F7844B /* SmoothGradient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +72,8 @@
 			);
 			name = Lightway;
 			packageProductDependencies = (
+				FAAA05222E2415F700F7844B /* SmoothGradient */,
+				FAAA05252E2415FF00F7844B /* GlowGetter */,
 			);
 			productName = Lightway;
 			productReference = FAAA04F32E23E7F900F7844B /* Lightway.app */;
@@ -94,6 +103,10 @@
 			);
 			mainGroup = FAAA04EA2E23E7F900F7844B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FAAA05212E2415F700F7844B /* XCRemoteSwiftPackageReference "SmoothGradient" */,
+				FAAA05242E2415FF00F7844B /* XCRemoteSwiftPackageReference "GlowGetter" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FAAA04F42E23E7F900F7844B /* Products */;
 			projectDirPath = "";
@@ -251,8 +264,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8QLG7H62C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage is required for scannign light information and displaying AR information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -282,8 +297,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8QLG7H62C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera usage is required for scannign light information and displaying AR information.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +345,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAAA05212E2415F700F7844B /* XCRemoteSwiftPackageReference "SmoothGradient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raymondjavaxx/SmoothGradient.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		FAAA05242E2415FF00F7844B /* XCRemoteSwiftPackageReference "GlowGetter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Aeastr/GlowGetter";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAAA05222E2415F700F7844B /* SmoothGradient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAAA05212E2415F700F7844B /* XCRemoteSwiftPackageReference "SmoothGradient" */;
+			productName = SmoothGradient;
+		};
+		FAAA05252E2415FF00F7844B /* GlowGetter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAAA05242E2415FF00F7844B /* XCRemoteSwiftPackageReference "GlowGetter" */;
+			productName = GlowGetter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAAA04EB2E23E7F900F7844B /* Project object */;
 }

@@ -1,0 +1,41 @@
+{
+  "" : {
+    "const-values" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary.swiftconstvalues",
+    "dependencies" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary.d",
+    "diagnostics" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary.dia",
+    "emit-module-dependencies" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary-emit-module.dia",
+    "pch" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/Lightway-primary.swiftdeps"
+  },
+  "/Users/alex/Desktop/Lightway/Lightway/ContentView.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/alex/Desktop/Lightway/Lightway/Features/Common/CameraView.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/CameraView.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/CameraView.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/CameraView.o"
+  },
+  "/Users/alex/Desktop/Lightway/Lightway/Features/Home/HomeScreen.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/HomeScreen.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/HomeScreen.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/HomeScreen.o"
+  },
+  "/Users/alex/Desktop/Lightway/Lightway/Features/Root/RootScreen.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/RootScreen.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/RootScreen.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/RootScreen.o"
+  },
+  "/Users/alex/Desktop/Lightway/Lightway/LightwayApp.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/LightwayApp.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/LightwayApp.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/LightwayApp.o"
+  },
+  "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/alex/Desktop/Lightway/build/Lightway.build/Release-iphoneos/Lightway.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  }
+}

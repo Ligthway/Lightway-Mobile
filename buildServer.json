@@ -1,0 +1,19 @@
+{
+	"name": "xcode build server",
+	"version": "0.2",
+	"bspVersion": "2.0",
+	"languages": [
+		"c",
+		"cpp",
+		"objective-c",
+		"objective-cpp",
+		"swift"
+	],
+	"argv": [
+		"/opt/homebrew/bin/xcode-build-server"
+	],
+	"workspace": "/Users/alex/Desktop/Lightway/Lightway.xcodeproj/project.xcworkspace",
+	"build_root": "/Users/alex/Library/Developer/Xcode/DerivedData/Lightway-foqcwyxwneyyzvcacdgdwbttbxkb",
+	"scheme": "Lightway",
+	"kind": "xcode"
+}

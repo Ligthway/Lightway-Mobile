@@ -1,0 +1,24 @@
+{
+  "originHash" : "8852cf51159e77b447c16e3067f8a3c23c0dea417edb5a80aece62c5ab6b788d",
+  "pins" : [
+    {
+      "identity" : "glowgetter",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Aeastr/GlowGetter",
+      "state" : {
+        "revision" : "b1e9372d49f4047ab8ff39ef6b9b8f56f47608b9",
+        "version" : "1.1.1"
+      }
+    },
+    {
+      "identity" : "smoothgradient",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/raymondjavaxx/SmoothGradient.git",
+      "state" : {
+        "revision" : "77ac160533ce312f92b566754731e07b20315a41",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
